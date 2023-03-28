@@ -26,7 +26,7 @@ dependencies {
     runtimeOnly("com.mysql:mysql-connector-j")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
-    implementation ("com.github.jasync-sql:jasync-r2dbc-mysql:2.0.8")
+    implementation("com.github.jasync-sql:jasync-r2dbc-mysql:2.1.23")
 }
 
 tasks.withType<KotlinCompile> {
