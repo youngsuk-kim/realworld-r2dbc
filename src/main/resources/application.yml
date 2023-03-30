@@ -3,3 +3,7 @@ spring:
     url: "r2dbc:mysql://localhost:3306/realworld"
     username: root
     password: rladudtjr1!
+
+  sql:
+    init:
+      mode: always
