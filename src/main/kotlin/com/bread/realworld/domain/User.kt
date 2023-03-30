@@ -6,9 +6,11 @@ import org.springframework.data.relational.core.mapping.Table
 @Table(name = "users")
 class User (
     @Id
-    val id: Long,
-    val token: String,
+    var id: Long? = null,
+    val token: String? = null,
     val username: String,
-    val bio: String,
-    val image: String
+    val password: String,
+    val email: String,
+    val bio: String? = null,
+    val image: String? = null
 )
